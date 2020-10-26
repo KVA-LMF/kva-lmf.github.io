@@ -1,0 +1,156 @@
+/* MAIN LAYOUT */
+
+* {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+}
+body {
+  max-width: 55ch;
+  padding: 0.5ch;
+  margin: 0 auto;
+}
+header, nav, #content, footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1ch;
+  padding-right: 1ch;
+}
+#content {
+  border: 3px solid;
+  border-radius: 5px;
+  line-height: 165%;
+}
+nav {
+  word-spacing: 1.4ch;
+}
+nav a{
+  font-size: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  margin-top: 0.33em;
+}
+#content > :first-child {
+  margin-top: 0.5rem;
+}
+#content > :last-child {
+  margin-bottom: 0.5rem;
+}
+
+
+/* ADDITIONAL LAYOUT */
+
+table {
+  border-spacing: 0;
+}
+th, td {
+  padding: 0;
+  padding-right: 1ch;
+  vertical-align: top;
+  text-align: left;
+}
+th:last-child, td:last-child {
+  padding-right: 0;
+}
+td.post_date {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 2.5ch;
+}
+li:before {
+  content: "–";
+  position: absolute;
+  left: -2.5ch;
+}
+li {
+  position: relative;
+}
+a {
+  word-wrap: break-word;
+}
+#news_header {
+  display: table;
+  width: 100%;
+}
+#news_header h2 {
+  display: table-cell;
+}
+#feed_link {
+  display: table-cell;
+  text-align: right;
+}
+
+
+/* FONTS */
+
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 400;
+}
+strong {
+  font-weight: 500;
+}
+h1 {
+  font-size: x-large;
+  font-weight: 500;
+}
+h2 {
+  font-size: large;
+  font-weight: 500;
+}
+h3 {
+  font-size: medium;
+  font-weight: 500;
+}
+h4 {
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
+}
+h5 {
+  font-size: smaller;
+  font-weight: 500;
+}
+h6 {
+  font-size: smaller;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* COLORS */
+
+body {
+  background-color: #f9f9f9;
+  color: #084077;
+}
+#content {
+  background-color: #fff;
+}
+a, nav a:visited, .nav_link:visited {
+  color: #28d;
+}
+a:visited {
+  color: #75c;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only print {
+  body, #content {
+    background-color: white;
+    border: none;
+  }
+  nav {
+    display: none;
+  }
+}

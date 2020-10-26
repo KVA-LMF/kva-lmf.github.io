@@ -1,0 +1,5 @@
+title: "The Swedish National Committee for Logic, Methodology and Philosophy" # for feeds
+permalink: /news/:year-:month-:day-:title:output_ext
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
