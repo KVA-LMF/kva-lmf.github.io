@@ -9,6 +9,37 @@ body {
   padding: 0.5ch;
   margin: 0 auto;
 }
+header {
+  display: table;
+}
+header div {
+  display: table-row;
+  vertical-align: middle;
+  font-size: x-large;
+}
+header #logo_container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 22%;
+  padding-right: 0.5ch;
+}
+header #text_container {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0.5ch;
+}
+header h1 {
+  vertical-align: middle;
+  font-size: min(5vw, 1em);
+  line-height: 1.5;
+  margin: 0;
+}
+header img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
 header, nav, #content, footer {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -25,7 +56,7 @@ header, nav, #content, footer {
 nav {
   word-spacing: 1.4ch;
 }
-nav a{
+nav a {
   font-size: 1.1em;
 }
 h1, h2, h3, h4, h5, h6 {
