@@ -4,8 +4,9 @@ layout: default
 The Swedish National Committee for Logic, Methodology and Philosophy is
 [The Royal Swedish Academy of Sciences'](https://www.kva.se/en)
 representative in
-[The Division of Logic, Methodology and Philosophy of Science of the
-International Union of History and Philosophy of Science](https://dlmps.org/).
+[The Division of Logic, Methodology and Philosophy of Science](https://dlmps.org/)
+of
+[The International Union of History and Philosophy of Science](https://iuhpst.org/).
 
 ## Latest news
 
