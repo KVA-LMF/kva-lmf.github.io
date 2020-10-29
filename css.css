@@ -9,6 +9,23 @@ body {
   padding: 0.5ch;
   margin: 0 auto;
 }
+header, nav, #content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1ch;
+  padding-right: 1ch;
+}
+header, nav {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#content {
+  margin-left: 0;
+  margin-right: 0;
+  border: 3px solid;
+  border-radius: 5px;
+  line-height: 165%;
+}
 header {
   display: table;
 }
@@ -39,19 +56,6 @@ header img {
   width: 100%;
   height: auto;
   margin: 0;
-}
-header, nav, #content, footer {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 1ch;
-  padding-right: 1ch;
-}
-#content {
-  border: 3px solid;
-  border-radius: 5px;
-  line-height: 165%;
 }
 nav {
   word-spacing: 1.4ch;
