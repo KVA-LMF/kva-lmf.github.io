@@ -1,12 +1,14 @@
 /* MAIN LAYOUT */
 
 * {
+  box-sizing: border-box;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
 }
 body {
-  max-width: 55ch;
-  padding: 0.5ch;
+  max-width: 56ch;
+  padding-left: 0.5ch;
+  padding-right: 0.5ch;
   margin: 0 auto;
 }
 header, nav, #content {
@@ -20,8 +22,8 @@ header, nav {
   margin-right: 3px;
 }
 #content {
-  margin-left: 0;
-  margin-right: 0;
+  padding-top: 1ch;
+  padding-bottom: 1ch;
   border: 3px solid;
   border-radius: 5px;
   line-height: 165%;
@@ -29,18 +31,18 @@ header, nav {
 header {
   display: table;
 }
-header div {
+header>div {
   display: table-row;
   vertical-align: middle;
   font-size: x-large;
 }
-header #logo_container {
+#logo_container {
   display: table-cell;
   vertical-align: middle;
   width: 22%;
   padding-right: 0.5ch;
 }
-header #text_container {
+#text_container {
   display: table-cell;
   vertical-align: middle;
   padding-left: 0.5ch;
@@ -69,11 +71,11 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, p, ul, li, table {
   margin-top: 0.33em;
 }
-#content > :first-child {
-  margin-top: 0.5rem;
+#content>:first-child {
+  margin-top: 0;
 }
-#content > :last-child {
-  margin-bottom: 0.5rem;
+#content>:last-child {
+  margin-bottom: 0;
 }
 
 
