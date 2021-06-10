@@ -15,14 +15,14 @@ of
 ## Members
 
 - Anna-Sofia Maurin
-- Dag Westerståhl
+- Bahareh Afshari
+- Folke Tersman
 - Fredrik Stjernberg
 - Göran Sundholm
 - John Cantwell
 - Kathrin Glüer-Pagin (chair)
-- Per Martin-Löf
 - Peter Dybjer
-- Peter Pagin
-- Valentin Goranko
-- Wlodek Rabinowicz
+- Peter LeFanu Lumsdaine
+- Richard Dawid
+- [Valentin Goranko](https://www2.philosophy.su.se/goranko/)
 - Åsa M Wikforss
