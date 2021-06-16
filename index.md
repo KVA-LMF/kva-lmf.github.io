@@ -20,12 +20,12 @@ which hosts the monthly
 ## Members
 
 - Anna-Sofia Maurin
-- Bahareh Afshari
+- [Bahareh Afshari](https://www.gu.se/en/about/find-staff/baharehafshari)
 - Folke Tersman
-- Fredrik Stjernberg
+- Fredrik Stjernberg (secretary)
 - Göran Sundholm
 - John Cantwell
-- Kathrin Glüer-Pagin (chair)
+- [Kathrin Glüer-Pagin](https://kathrin.pagin.se) (chair)
 - Peter Dybjer
 - Peter LeFanu Lumsdaine
 - Richard Dawid
