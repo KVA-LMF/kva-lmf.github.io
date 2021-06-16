@@ -8,6 +8,11 @@ representative in
 of
 [The International Union of History and Philosophy of Science](https://iuhpst.org/).
 
+A related society is the
+[Scandivian Logic Society](https://www.scandinavianlogic.org)
+which hosts the monthly
+[Nordic Online Logic Seminar](https://scandinavianlogic.org/the-NOL-seminar.html).
+
 ## Latest news
 
 {% include list_news.liquid limit=3 %}
