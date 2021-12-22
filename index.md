@@ -26,7 +26,7 @@ which hosts the monthly
 - Göran Sundholm
 - John Cantwell
 - [Kathrin Glüer-Pagin](https://kathrin.pagin.se) (chair)
-- Peter Dybjer
+- [Peter Dybjer](https://www.cse.chalmers.se/~peterd/)
 - Peter LeFanu Lumsdaine
 - Richard Dawid
 - [Valentin Goranko](https://www2.philosophy.su.se/goranko/)
