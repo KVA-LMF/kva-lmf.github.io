@@ -5,12 +5,17 @@
 {% endif %}
 <table class="posts_list">
   {% for post in posts %}
+  {% if post.link_title %}
+    {% assign link_title = post.link_title %}
+  {% else %}
+    {% assign link_title = post.title %}
+  {% endif %}
     <tr>
       <td class="post_date">
         {{ post.date | date: "%Y-%m-%d" }}
       </td>
       <td class="post_link">
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ link_title }}</a>
       </td>
     </tr>
   {% endfor %}
