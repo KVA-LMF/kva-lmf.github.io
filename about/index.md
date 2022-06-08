@@ -12,7 +12,7 @@ with the intent of forming a national committee representing the academy in
 (The original Swedish description of this “section” was: *en sektion för
 vetenskapens logik, metodologi och filosofi av en svensk nationalkommitté
 ansluten till Internationella unionen för vetenskapens historia och filosofi*).
-In 1975 this lead to the creation of the committee under its current name *The
+In 1975 this led to the creation of the committee under its current name *The
 Swedish National Committee for Logic, Methodology and Philosophy* (In Swedish:
 *Svenska nationalkommittén för logik, metodologi och filosofi*).
 
