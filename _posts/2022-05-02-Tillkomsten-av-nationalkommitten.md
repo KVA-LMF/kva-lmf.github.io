@@ -85,7 +85,11 @@ diskrepansen blev därför inte åtgärdad).
 Redan vid denna rekonstruktion av Sveriges anknytning till DLMPS diskuterades på
 initiativ av Kanger möjligheten att inbjuda organisationen att hålla en kongress
 i Sverige. Denna möjlighet förverkligades 1987 då nationalkommittén genom Kanger
-inbjöd DLMPS att hålla sin nionde internationella kongress i Uppsala 1991. Stig
-Kanger avled emellertid 1988 och efterträddes som ordförande av Dag Prawitz.
-Ansvaret för att genomföra kongressen i Uppsala kom sedan att vila på en
-programkommitté med Prawitz som ordförande och Dag Westerståhl som sekreterare.
+inbjöd DLMPS att hålla sin
+[nionde internationella kongress](
+  {% post_url 2022-06-08-Logic-Methodology-and-Philosophy-of-Science-IX %}
+)
+i Uppsala 1991. Stig Kanger avled emellertid 1988 och efterträddes som
+ordförande av Dag Prawitz. Ansvaret för att genomföra kongressen i Uppsala kom
+sedan att vila på en programkommitté med Prawitz som ordförande och Dag
+Westerståhl som sekreterare.
