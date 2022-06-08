@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Past event: Teacher Training Day"
+title: "Teacher Training Day"
+link_title: "Teacher Training Day [past event]"
 ---
 On October 22, 2021, the National Committee organized a
 [one-day workshop for Swedish high school teachers](https://kva.se/kunskapimotvind)
