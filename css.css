@@ -29,35 +29,22 @@ header, nav {
   line-height: 165%;
 }
 header {
-  display: table;
-}
-header>div {
-  display: table-row;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
   font-size: x-large;
 }
-#logo_container {
-  display: table-cell;
-  vertical-align: middle;
-  width: 22%;
-  padding-right: 0.5ch;
-}
-#text_container {
-  display: table-cell;
-  vertical-align: middle;
-  padding-left: 0.5ch;
-}
-header h1 {
-  vertical-align: middle;
-  font-size: min(5vw, 1em);
-  line-height: 1.5;
-  margin: 0;
+header, header img {
+  height: min(21vw,4.95em);
 }
 header img {
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
+  width: auto;
+  padding-right: 0.5ch;
+}
+header h1 {
   margin: 0;
+  padding-left: 0.5ch;
+  line-height: 1.5;
+  font-size: min(4.65vw,1.1em);
 }
 nav {
   word-spacing: 1.4ch;
