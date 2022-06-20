@@ -7,6 +7,6 @@
     {% when "event" %}
       {% include validate_tag_event.liquid page=include.page %}
     {% else %}
-      {{ "no validation for tag ‘" | append: tag | append: "’" | log_info }}
+      <!-- {{ "no validation for tag ‘" | append: tag | append: "’" | log_info }} -->
   {% endcase %}
 {% endfor %}

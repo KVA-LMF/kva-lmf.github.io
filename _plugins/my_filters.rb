@@ -5,7 +5,7 @@ module MyFilters
         bad_file = @context.registers[:page]['path']
         err_msg = "In #{bad_file}: #{msg}"
         warn err_msg
-        return ""
+        return msg
     end
     def log_warning(msg)
         bad_file = @context.registers[:page]['path']
