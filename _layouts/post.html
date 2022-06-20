@@ -2,12 +2,7 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p>
-    {{ page.date | date: "%Y-%m-%d" }}
-    {% if page.tags %} <br> {% endif %}
-    {% for tag in page.tags %}
-        [{{tag}}]
-    {% endfor %}
-</p>
+
+{% include post_info.liquid page=page %}
 
 {{ content }}

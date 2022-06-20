@@ -1,0 +1,53 @@
+{% assign posts = site.posts %}
+
+{% if include.limit %}
+  {% assign posts = posts | slice: 0, include.limit %}
+{% endif %}
+
+{% if include.tag %}
+  {% assign posts = posts | where_exp: "p", "p.tags contains include.tag" %}
+{% endif %}
+
+{% if include.tag == "event" %}
+  {% assign posts = posts | sort: "start_date" | reverse %}
+{% endif %}
+
+<table class="posts_list">
+
+  {% if include.tag == "event" %}
+      <tr>
+        <th class="date">Date(s)</th>
+        <th class="post_link">Description</th>
+      </tr>
+  {% endif %}
+
+  {% for post in posts %}
+
+    <tr>
+      <td class="date">
+        {% if include.tag == "event" %}
+
+          {{ post.start_date | date: "%Y-%m-%d" }}
+          {% if post.end_date != post.start_date %}
+            –
+            <br>
+            {{ post.end_date | date: "%Y-%m-%d" }}
+          {% endif %}
+
+        {% else %}
+
+          {{ post.date | date: "%Y-%m-%d" }}
+
+        {% endif %}
+      </td>
+      <td class="post_link">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {% unless include.no_tags | default: false %}
+          {% include list_post_tags.liquid post=post %}
+        {% endunless %}
+      </td>
+    </tr>
+
+  {% endfor %}
+
+</table>

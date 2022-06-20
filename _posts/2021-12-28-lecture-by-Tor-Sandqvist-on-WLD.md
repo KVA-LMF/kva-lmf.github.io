@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "World Logic Day public lecture by Tor Sandqvist"
+tags: ["event"]
+start_date: "2022-01-14"
+end_date: "2022-01-14"
 ---
 In connection with the
 [World Logic Day](https://en.unesco.org/commemorations/worldlogicday) on January

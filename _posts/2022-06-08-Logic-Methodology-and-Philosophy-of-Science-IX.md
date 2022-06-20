@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Logic, Methodology and Philosophy of Science IX"
-link_title: "Logic, Methodology and Philosophy of Science IX [in Swedish] [past event]"
+tags: ["in Swedish", "event"]
+start_date: "1991-08-07"
+end_date: "1991-08-14"
 ---
 IUHPS/DLMPS nionde internationella kongress ägde rum i Uppsala den 7 till 14
 augusti 1991, organiserad av nationalkommittén. Programmet var indelat i 15

@@ -1,0 +1,16 @@
+{% if post.tags | size > 0 %}
+  {% for tag in include.post.tags %}
+
+    {% if tag == "event" %}
+      {% assign publication_date = include.post.date | date: "%s" | plus: 0 %}
+      {% assign end_date = include.post.end_date | date: "%s" | plus: 0 %}
+      {% if publication_date > end_date %}
+        <span class="tag">[past event]</span>
+        {% continue %}
+      {% endif %}
+    {% endif %}
+
+    <span class="tag">[{{tag}}]</span>
+
+  {% endfor %}
+{% endif %}

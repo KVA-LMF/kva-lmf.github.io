@@ -13,9 +13,9 @@ A related society is the
 which hosts the monthly
 [Nordic Online Logic Seminar](https://scandinavianlogic.org/the-NOL-seminar.html).
 
-## Latest news
+{% include feed_header.liquid text="Latest news" url="/feed.xml" %}
 
-{% include list_news.liquid limit=3 %}
+{% include list_posts.liquid limit=3 %}
 
 ## Members
 

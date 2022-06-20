@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tillkomsten av Nationalkommittén för logik, metodologi och filosofi"
-link_title: "Tillkomsten av Nationalkommittén för logik, metodologi och filosofi [in Swedish]"
+tags: ["in Swedish"]
 ---
 Svenska nationalkommittéer för olika ämnesområdena har sedan länge organiserats
 av Kungl. Vetenskapsakademien (KVA) för att ansvara för Sveriges anslutning till

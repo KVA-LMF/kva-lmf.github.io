@@ -1,0 +1,36 @@
+{% assign page = include.page %}
+{% if page.tags contains "in Swedish" %}
+  {% assign published_str = "publicerad:" %}
+  {% assign event_date_str = "datum:" %}
+  {% assign event_dates_str = "datum:" %}
+{% else %}
+  {% assign published_str = "published:" %}
+  {% assign event_date_str = "event date:" %}
+  {% assign event_dates_str = "event dates:" %}
+{% endif %}
+
+<p id="post_info">
+
+  <span id="post_dates">
+    {{ published_str }}
+    {{ page.date | date: "%Y-%m-%d" }}
+  </span>
+
+  {% if page.tags contains "event" %}
+    <br>
+    {% if page.end_date != page.start_date %}
+      <span id="event_dates">
+        {{ event_dates_str }}
+        {{ page.start_date | date: "%Y-%m-%d" }}
+        –
+        {{ page.end_date | date: "%Y-%m-%d" }}
+      </span>
+    {% else %}
+      <span id="event_date">
+        {{ event_date_str }}
+        {{ page.start_date | date: "%Y-%m-%d" }}
+      </span>
+    {% endif %}
+  {% endif %}
+
+</p>
