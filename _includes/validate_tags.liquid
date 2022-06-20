@@ -1,0 +1,12 @@
+{% for tag in include.page.tags %}
+  {% unless site.data.valid_tags contains tag %}
+    {{ "invalid tag ‘" | append: tag | append: "’" | log_error }}
+    {% continue %}
+  {% endunless %}
+  {% case tag %}
+    {% when "event" %}
+      {% include validate_tag_event.liquid page=include.page %}
+    {% else %}
+      {{ "no validation for tag ‘" | append: tag | append: "’" | log_info }}
+  {% endcase %}
+{% endfor %}

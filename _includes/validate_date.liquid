@@ -1,0 +1,9 @@
+{% if include.date %}
+  {% assign d1 = include.date %}
+  {% assign d2 = include.date | date: "%Y-%m-%d" %}
+  {% if d1 != d2 %}
+    {{ "‘" | append: d1 | append: "’ not on YYYY-MM-DD format" | log_error }}
+  {% endif %}
+{% else %}
+  {{ "date missing" | log_error }}
+{% endif %}

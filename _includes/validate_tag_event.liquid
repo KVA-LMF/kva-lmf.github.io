@@ -1,0 +1,7 @@
+{% include validate_date.liquid date=include.page.start_date %}
+{% include validate_date.liquid date=include.page.end_date %}
+{% assign start_date_in_seconds = include.page.start_date | date: "%s" %}
+{% assign end_date_in_seconds = include.page.end_date | date: "%s" %}
+{% if start_date_in_seconds > end_date_in_seconds %}
+  {{ "start date > end date" | log_error }}
+{% endif %}
