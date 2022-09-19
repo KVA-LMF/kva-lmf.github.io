@@ -20,7 +20,7 @@ which hosts the monthly
 
 ## Members
 
-- Anna-Sofia Maurin
+- [Anna-Sofia Maurin](https://annasofiamaurin.com)
 - [Bahareh Afshari](https://www.gu.se/en/about/find-staff/baharehafshari)
 - Folke Tersman
 - Fredrik Stjernberg (secretary)
