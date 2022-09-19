@@ -9,15 +9,6 @@
   --border: var(--border-width) solid;
   --border-radius: 5px;
 
-  --header-em-size: x-large;
-  --header-font-size: min(4.65vw, 1.1em);
-  --header-line-height: 1.5;
-  --header-no-of-lines: 3;
-  --header-height: calc(
-    var(--header-no-of-lines)*var(--header-font-size)*var(--header-line-height)
-  );
-  --header-internal-padding: 1ch;
-
   --nav-word-spacing: 1.4ch;
   --nav-font-size: 1.1em;
 
@@ -26,7 +17,7 @@
 
   --body-bg-color: #f9f9f9;
   --content-bg-color: #fff;
-  --fg-color: #084077;
+  --fg-color: #004b80;
 
   --link-color: #28d;
   --link-visited-color: #75c;
@@ -83,21 +74,11 @@ a {
 /* HEADER */
 
 header {
-  display: flex;
-  align-items: center;
-  font-size: var(--header-em-size);
+  max-width: var(--max-width);
 }
-header, header img {
-  height: var(--header-height);
-}
+
 header img {
-  width: auto;
-  padding-right: var(--header-internal-padding);
-}
-header h1 {
-  margin: 0;
-  line-height: var(--header-line-height);
-  font-size: var(--header-font-size);
+  width: 100%;
 }
 
 

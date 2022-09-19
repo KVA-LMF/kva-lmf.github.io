@@ -13,18 +13,20 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-1,39fold
-40,86fold
-87,107fold
-108,117fold
-118,132fold
-133,161fold
-162,171fold
-172,188fold
-189,225fold
-226,242fold
-243,253fold
+1,26fold
+27,73fold
+74,84fold
+85,94fold
+95,109fold
+110,138fold
+139,148fold
+149,165fold
+166,202fold
+203,219fold
+220,230fold
 let &fdl = &fdl
+1
+normal! zo
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
 nohlsearch
