@@ -15,11 +15,12 @@
   --content-line-height: 1.65;
   --post-info-line-height: 1.2;
 
-  --body-bg-color: #f9f9f9;
+  --body-bg-color: #eff9ff;
   --content-bg-color: #fff;
   --fg-color: #004b80;
+  --border-color: var(--fg-color);
 
-  --link-color: #28d;
+  --link-color: #2070d0;
   --link-visited-color: #75c;
 }
 
@@ -57,6 +58,7 @@ header, nav {
   padding-top: var(--content-padding);
   padding-bottom: var(--content-padding);
   border: var(--border);
+  border-color: var(--border-color);
   border-radius: var(--border-radius);
   line-height: var(--content-line-height);
 }
