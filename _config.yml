@@ -3,3 +3,5 @@ permalink: /news/:year-:month-:day-:title:output_ext
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+exclude:
+  - "TODO.md"
